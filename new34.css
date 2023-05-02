@@ -1,0 +1,305 @@
+body{
+    margin: 0%;
+    padding:0%;
+    background-color:aliceblue;
+
+}
+#menu{
+    height:;
+    background-color: pink;
+    position: sticky;
+    top: 0%;
+    padding: 10px 0 4px 0;
+}
+.logo{
+    float: left;
+    font-size: 35px;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+span{
+    color: #00c1c1;
+}
+#menu ul{
+    text-align: right;
+}
+#menu li{
+    list-style: none;
+    margin: 10px;
+    padding: 5px;
+    display:inline;
+}
+#menu li a{
+   
+    color: black;
+    font-size:20px;
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#menu a:hover:not(.logo){
+color: #00c1c1;
+text-decoration: underline;
+transition: 0.5s;
+}
+
+/* .goggle{
+    width:100%;
+    height: auto;
+    height: auto;
+} */
+/* slide show start */
+
+
+/* img{vertical-align:middle;}
+.slideshow-container{
+  max-width: 1000px;
+  /* position: relative; */
+  /* margin: auto; */
+}
+/* next and previous buttons */
+/* .prev, .next {
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+padding: 16px;
+margin-top: -22px;
+color: white;
+font-size: 19px;
+font-weight: bold;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+}
+.next{
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover{
+  background-color: red;
+}
+
+.text{
+  color:#f2f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext{
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0%;
+}
+.dot{
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover{
+  background-color: #717171;
+}
+
+.fade{
+  animation-name: fade;
+  animation-duration: 1.5s;
+
+}
+
+@keyframes fade{
+  from{opacity: .4}
+  to{opacity:1}
+  }
+
+  @media only screen and(max-width:300px){
+    .prev, .next,.text{font-size:11px} 
+  } */
+
+
+
+
+
+
+.scategories{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+    }
+
+    
+
+body {font-family: Arial;}
+h2{
+    text-align: center;
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  padding-left: 560px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+ .btn:hover {
+  background-color: #666;
+  color: white;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.tabcontent img{
+
+    width:320px ;
+    height:300px;
+    position:;
+}
+/* REMOVE THIS, USE YOUR OWN  */
+
+
+
+  /* .dummy_page {
+    height: 200px;
+    width: 100%;
+    background-color: #f0f0f0;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 60px 0px; */
+  
+  /* STYLES SPECIFIC TO FOOTER  */
+  .footer{
+    width: 100%;
+    position: relative;
+    height: auto;
+    }
+  footer{
+    background-color: #00c1c1;
+  }
+  
+  .footer .col {
+    width: 290px;
+    height: auto;
+    float: left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0px 20px 20px 20px;
+  }
+  .footer .col h1 {
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 17px;
+    padding: 20px 0px 5px 0px;
+    color: rgb(27, 27, 27);
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.250em;
+  }
+  .footer .col ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .footer .col ul li {
+    color: #999999;
+    font-size: 14px;
+    font-family:inherit;
+    font-weight: bold;
+    padding: 5px 0px 5px 0px;
+    cursor: pointer;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+  }
+  .social ul li {
+    display: inline-block;
+    padding-right: 5px !important;
+  }
+  
+  .footer .col ul li:hover {
+    color: #2f2f2f;
+    transition: .1s;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+  }
+  .clearfix {
+    clear: both;
+  }
+  @media only screen and (min-width: 1280px) {
+    .contain {
+      width: 1200px;
+      margin: 0 auto;
+    }
+  }
+  @media only screen and (max-width: 1139px) {
+    .contain .social {
+      width: 1000px;
+      display: block;
+    }
+    .social h1 {
+      margin: 0px;
+    }
+  }
+  @media only screen and (max-width: 950px) {
+    .footer .col {
+      width: 33%;
+    }
+    .footer .col h1 {
+      font-size: 14px;
+    }
+    .footer .col ul li {
+      font-size: 13px;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+      .footer .col {
+        width: 50%;
+      }
+      .footer .col h1 {
+        font-size: 14px;
+      }
+      .footer .col ul li {
+        font-size: 13px;
+      }
+  }
+  @media only screen and (max-width: 340px) {
+    .footer .col {
+      width: 100%;
+    }
+  }

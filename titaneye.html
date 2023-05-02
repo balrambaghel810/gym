@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balram Optical</title>
+    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA1klEQVR4AaXRAQQCMQCF4UkACBJAQASBIAAEACAKIYUgqAqCRFAuRaEikAQSAAKFAqJSQFAiEBRi/bII5dzu8THjPWzindkmhxPumGKMIQbooo0m6qiigvynHIdUwsJqKO0hMRE6ofiERFx3QCouOwNboRKJxDxYYIU1DpjjCv+vgRNSXwM+BNS5haM6exEUVkLBwE7ohnLD7oCB7Z+3C2FvNtDDGY4fAx1Is4EEGn8GLpC6X++DtDNQ0B6g5MYNEv3PZRRJpJFBFkWUUEYVNRhY4oERnC+wQ7QLwyLt0QAAAABJRU5ErkJggg==">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="new34.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">TITANEYE+</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Glasses</a></li>
+              <li><a class="dropdown-item" href="#">Lens</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Accessories</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+
+<div id="menu">
+        <ul>
+        <li><div class="logo">TITAN<span> EYE+</span></div></li>
+        <li><a href="">EyeGlasses</a></li>
+        <li><a href="">SunGlasses</a></li>
+        <li><a href="">ComputerGlasses</a></li>
+        <li><a href="">ReadingGlasses</a></li>
+        <li><a href="">Contact lens</a></li>
+    </ul>
+</div>
+<!-- <img class="goggle" src="https://staticimg.titan.co.in/Titaneyeplus/assets/wysiwyg/TEP_Mobile-Web-Banner_SG_Starting_889.jpg" alt=""> -->
+<!-- ------ slide show start here---------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+
+<style>
+/* * {box-sizing: border-box} */
+/* body {font-family: Verdana, sans-serif; margin:0} */
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position:relative;
+  
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color:rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+background-color: rgb(0, 0, 0);
+}
+
+/* Caption text */
+.text {
+  color: #b31111;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="https://staticimg.titan.co.in/Titaneyeplus/assets/wysiwyg/TEP_Web-banner_Eyeglasses_Starting-600_4_1_.jpg" width="100%" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="https://staticimg.titan.co.in/Titaneyeplus/assets/wysiwyg/TEP_Web-banner_SG_Starting_889_10.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="https://staticimg.titan.co.in/Titaneyeplus/assets/wysiwyg/desktop-clink-web-banner.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+<!-- <div class="slideshow-container">
+ 
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 5</div>
+    <img src="https://staticimg.titan.co.in/Titaneyeplus/assets/wysiwyg/TEP_Web-banner_Eyeglasses_Starting-600_4_1_.jpg" width="100%">
+    <div class="text"></div>
+  </div>
+  
+  
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 5</div>
+    <img src="https://staticimg.titan.co.in/Titaneyeplus/assets/wysiwyg/TEP_Web-banner_SG_Starting_889_10.jpg" width="">
+    <div class="text"></div>
+  </div>
+  
+  
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 5</div>
+    <img src="https://staticimg.titan.co.in/Titaneyeplus/assets/wysiwyg/desktop-clink-web-banner.jpg" alt="">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 5</div>
+    <img src="https://staticimg.titan.co.in/Titaneyeplus/assets/wysiwyg/TEP_Web-Banner-Contact-Lenses_1500X468.jpg" alt="">
+    <div class="text"></div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 5</div>
+    <img src="https://staticimg.titan.co.in/Titaneyeplus/assets/wysiwyg/Rayban-DT.jpg" alt="">
+    <div class="text"></div>
+  </div>
+<a class="prev" onclick="plusSlides(-1)"><</a>
+<a class="next" onclick="plusSlides(1)">></a>
+
+</div>
+<br>
+<div style="text-align: center;">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+</div>
+<script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+
+  function plusSlides(n){
+    showSlides(slideIndex +=n);
+  }
+
+  function currentSlide(n){
+    showSlides(slideIndex =n);
+  }
+  function currentSlides(n){
+    let i;
+    let slides  = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if(n > slides.length) {slideIndex = 1}
+    if(n < 1){slideIndex = slides.length}
+    for(i = 0; i < slide.length; i++){
+      slides[i].style.display = "none";
+    }
+    for(i = 0; i < dots.length; i++){
+      dots[i].className = dots[i].className.replace(" active", "");
+       }
+       slides[slideIndex-1].style.display = "block";
+       dots[slideIndex-1].className += " active";
+  }
+
+
+</script> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2>Shop Categories</h2>
+
+
+<div class="tab">
+  <button class="tablinks btn active" onclick="openCity(event, 'Men')">Men</button>
+  <button class="tablinks btn" onclick="openCity(event, 'Women')">Women</button>
+  <button class="tablinks btn" onclick="openCity(event, 'Kids')">Kids</button>
+</div>
+
+<div id="Men" class="tabcontent">
+ <img src="https://images.meesho.com/images/products/186812299/gjpu2_400.webp" alt="">   
+ <img src="https://images.meesho.com/images/products/222899183/qxd9y_400.webp" alt="">
+ <img src="https://images.meesho.com/images/products/241144366/kamuo_400.webp" alt="">
+ <img src="https://images.meesho.com/images/products/92937229/ufit1_400.webp" alt="">
+</div>
+
+
+<div id="Women" class="tabcontent">
+      <img src="https://images.meesho.com/images/products/85488052/xbhty_512.webp" alt="">
+    <img src="https://images.meesho.com/images/products/69491658/qr4o2_400.webp" alt="">
+    <img src="https://images.meesho.com/images/products/239977820/1mk6a_400.webp" alt="">
+    <img src="https://images.meesho.com/images/products/93634943/kbm5s_400.webp" alt="">
+ </div>
+
+<div id="Kids" class="tabcontent">
+  <img src="https://images.meesho.com/images/products/94004906/a2e54_400.webp" alt="">
+  <img src="https://images.meesho.com/images/products/19175466/0d800_400.webp" alt="">
+  <img src="https://images.meesho.com/images/products/73169520/3xret_400.webp" alt="">
+  <img src="https://images.meesho.com/images/products/68431306/nms3s_400.webp" alt="">
+</div>
+
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+<hr>
+
+
+<!-- FOOTER START -->
+<footer>
+  <div class="footer">
+      <div class="contain">
+          <div class="col">
+              <h1>EYEGLASSES</h1>
+              <ul>
+        <li>Men</li>
+        <li>Women</li>
+        <li>Kids</li>
+        <li>Fastrack</li>
+        <li>Rimmless</li>
+    </ul>
+    </div>
+    <div class="col">
+        <h1>SUNGLASSES</h1>
+        <ul>
+            <li>Men</li>
+            <li>Women</li>
+            <li>Prescrition Sunglasses</li>
+        <li>Fastrack</li>
+        <li>Get in touch</li>
+      </ul>
+    </div>
+    <div class="col">
+      <h1>CONTACT LENSES</h1>
+      <ul>
+        <li>Bausch & Lomb</li>
+        <li>Johnson & Johnson</li>
+         </ul>
+</div>
+    <div class="col">
+      <h1>social media</h1>
+      <ul>
+          
+          <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+              <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+            </svg> TitanEye+</li>
+            <li>
+             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                    <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+                </svg> TitanEye+
+            </li>
+            <li>
+               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                    <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+                </svg> TitanEye+
+            </li>
+            <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                </svg> TitanEye+
+            </li>
+            </ul>
+        
+</div>
+
+
+</div>
+</div>
+<!-- END OF FOOTER -->
+</footer>
+<small style="float:left;">Copyright&#169;	TITANEYE+ 2023. All rights Reserved.</small>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
